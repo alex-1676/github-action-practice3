@@ -1,0 +1,14 @@
+name: Github Actions 실행
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  My-Deploy_Job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello WOrld 찍기
+        run: echo "Hello World"
